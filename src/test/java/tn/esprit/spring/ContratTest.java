@@ -43,7 +43,7 @@ public void testgetAllContrats() {
 public void testajouterContrat() throws ParseException , java.text.ParseException{
 	SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 	Date date = dateFormat.parse("2021-06-09");
-	Contrat u = new Contrat(date,"stage",200);
+	Contrat u = new Contrat(date,"stagee",200);
 	iE.ajouterContrat(u);
 	
 	}
